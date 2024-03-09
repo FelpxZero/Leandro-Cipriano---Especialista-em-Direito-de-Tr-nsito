@@ -1,0 +1,111 @@
+/* Reset padrão para remover margens e preenchimentos padrão dos elementos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o corpo da página */
+.cor{
+    background-color: #08369b;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #031d55;
+    color: #ff9900f6;
+    padding: 1em;
+}
+
+/* Estilizando a barra de navegação */
+nav {
+    background-color: #031d55;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s ease; /* Adicionando transição suave de cor ao link */
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Estilizando as seções */
+section {
+    padding: 2em;
+    color: #fff;
+    
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #ff9900f6;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #031d55;
+    color: #fff;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Estilizando o botão */
+button {
+    background-color: #ff9900f6;
+    color: #000;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adicionando transição suave de cor ao botão */
+}
+
+button:hover {
+    background-color: #e5bb00;
+}
+
+/* Estilizando os cards */
+.card {
+    border-color:  red;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+/* Estilizando a imagem do cliente */
+.client-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Deixando a imagem do cliente redonda */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Adicionando sombra suave à imagem */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    section {
+        padding: 1em;
+    }
+}
+.into{
+    
+    display: inline;
+}
