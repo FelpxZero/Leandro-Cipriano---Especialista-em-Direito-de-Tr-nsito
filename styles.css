@@ -6,25 +6,24 @@ body, h1, h2, p, ul, li {
 
 /* Estilizando o corpo da página */
 .cor{
-    background-color: #08369b;
+    background-image:url(gray.jpg);
 }
 body {
     font-family: 'Arial', sans-serif;
-    
+    background-color: #000;
     color: #fff;
     line-height: 1.6;
 }
 
 /* Estilizando o cabeçalho */
 header {
-    background-color: #031d55;
+    background-color: #031d5567;
     color: #ff9900f6;
     padding: 1em;
 }
 
 /* Estilizando a barra de navegação */
 nav {
-    background-color: #031d55;
     padding: 1em;
     text-align: center;
 }
@@ -60,7 +59,7 @@ p {
 
 /* Estilizando o rodapé */
 footer {
-    background-color: #031d55;
+    background-color: #031d5567;
     color: #fff;
     padding: 1em;
     position: fixed;
